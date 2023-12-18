@@ -20,8 +20,8 @@ const makeQrCode = () => {
         qrCodeDiv.innerHTML = '';
     }
 
-    if(qrCode == undefined ){
-         qrCodeDiv.innerHTML = ' Qr Code will show here'
+    if (qrCode == undefined) {
+        qrCodeDiv.innerHTML = ' Qr Code will show here'
     }
 }
 
